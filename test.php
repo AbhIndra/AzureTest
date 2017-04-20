@@ -1,5 +1,5 @@
 <?php
 
-echo "<h1><font color='green'> Hi Abhi!</font></h1>";
+echo "<h1> Hi <font color='green'>Abhi</font>!</h1>";
 
 ?>
