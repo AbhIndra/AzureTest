@@ -5,3 +5,8 @@ Please enter your name : <input type = "text" name="nm">
 </form>
 </html>
 
+<?php
+$nm = $_GET['nm'];
+
+echo "$nm";
+?>
