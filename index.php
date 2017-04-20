@@ -6,7 +6,10 @@ Please enter your name : <input type = "text" name="nm">
 </html>
 
 <?php
-$nm = $_GET['nm'];
+if(isset($_GET['nm']))
+{
+  $nm = $_GET['nm'];
 
-echo "Hi $nm";
+  echo "Hi $nm";
+} 
 ?>
