@@ -2,7 +2,7 @@
 
 if(isset($_GET['nm']))
  {
-  echo "<h1> Hi $_GET['nm']!"</h1>";
+  echo "<h1> Hi $_GET['nm']!</h1>";
   
  }
  else
