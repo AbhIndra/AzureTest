@@ -8,5 +8,5 @@ Please enter your name : <input type = "text" name="nm">
 <?php
 $nm = $_GET['nm'];
 
-echo "$nm";
+echo "Hi $nm";
 ?>
